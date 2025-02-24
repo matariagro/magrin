@@ -569,6 +569,11 @@ ol
     margin-left:20px;  
     margin-bottom: 15px;  
 }
+ul.post-list {
+    list-style-type: none;
+    padding:0px;
+    margin:0px;    
+}
 li.articles-item
 {
     min-height: 185px;
