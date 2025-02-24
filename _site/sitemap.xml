@@ -15,6 +15,18 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/articles/apa-jadinya-jika-tidak-ada-lagi-generasi-muda-yang-mau-bertani</loc>
+        <news:news>
+            <news:publication>
+                <news:name>Matariagro.com</news:name>
+                <news:language>id</news:language>
+            </news:publication>
+                <news:publication_date>2025-02-24</news:publication_date>
+                <news:title>Apa Jadinya Jika Tidak Ada Lagi Generasi Muda yang Mau Bertani?</news:title>
+        </news:news>    
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/articles/waspada-kehadiran-capung-tanda-awal-serangan-hama-tanaman-padi-di-sawah</loc>
         <news:news>
             <news:publication>

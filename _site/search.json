@@ -11,6 +11,16 @@
     } ,
     
   {
+    "title"    : "Apa Jadinya Jika Tidak Ada Lagi Generasi Muda yang Mau Bertani?",
+    "image"    : "/img/petani.jpg",    
+    "category" : "Inovasi",
+    "tags"     : "pertanian, inovatif, hilirisasi, industri, padi, sawah, budidaya, modern, konsultan, ketahanan, pangan",
+    "url"      : "/articles/apa-jadinya-jika-tidak-ada-lagi-generasi-muda-yang-mau-bertani",
+    "date"     : "2025-02-24 00:00:00 +0700",
+    "desc"     : "Banyak anak muda enggan menjadi petani. Mereka melihat sektor pertanian sebagai pekerjaan yang berat, kurang menguntungkan, dan tidak bergengsi. Namun, tahukah Anda bahwa rata-rata usia petani Indonesia saat ini mencapai 50 tahun ke atas? Jika tidak ada regenerasi, siapa yang akan memastikan ketahanan pangan di masa depan?"
+    } ,
+    
+  {
     "title"    : "Waspada Kehadiran Capung: Tanda Awal Serangan Hama Tanaman Padi di Sawah",
     "image"    : "/img/capung_padi.jpeg",    
     "category" : "Inovasi",
