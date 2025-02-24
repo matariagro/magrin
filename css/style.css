@@ -557,9 +557,17 @@ div.articles li {
 }
 ul
 {
-    list-style-type:none;
+    list-style-type:disc;
     padding:0px;
-    margin:0px;
+    margin-left:20px;
+    margin-bottom: 15px;
+}
+ol
+{
+    list-style-type: decimal;
+    padding:0px;
+    margin-left:20px;  
+    margin-bottom: 15px;  
 }
 li.articles-item
 {
