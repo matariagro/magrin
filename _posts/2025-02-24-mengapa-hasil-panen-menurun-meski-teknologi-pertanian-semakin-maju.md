@@ -69,7 +69,7 @@ Solusi Alternatif
 * Rantai distribusi yang panjang membuat harga melonjak di tingkat konsumen, tetapi rendah di tingkat petani.
 
 📌 Contoh Nyata: Fluktuasi Harga Gabah
-* Pada 2023, harga gabah di tingkat petani sempat turun hingga Rp4.500/kg, padahal harga beras di pasar tetap tinggi.
+Pada 2023, harga gabah di tingkat petani sempat turun hingga Rp4.500/kg, padahal harga beras di pasar tetap tinggi.
 
 Solusi untuk Memperkuat Akses Pasar
 * Koperasi petani untuk meningkatkan daya tawar dan menjual hasil panen langsung ke industri.
