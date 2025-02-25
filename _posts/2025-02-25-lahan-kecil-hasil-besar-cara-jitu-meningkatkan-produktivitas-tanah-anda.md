@@ -82,7 +82,7 @@ Keuntungan agroforestri:
 * Meningkatkan ketahanan lahan terhadap erosi
 
 Beberapa kombinasi agroforestri yang umum:
-* * Tanaman kopi atau kakao dengan pohon naungan seperti sengon
+* Tanaman kopi atau kakao dengan pohon naungan seperti sengon
 * Tanaman sayuran di sela-sela pohon buah
 * Sistem pekarangan rumah dengan tanaman hortikultura dan pohon kayu
 
@@ -91,12 +91,9 @@ Beberapa kombinasi agroforestri yang umum:
 Kunci produktivitas tinggi di lahan sempit adalah kesuburan tanah yang terjaga. Penggunaan pupuk organik dan mikroba tanah sangat penting untuk meningkatkan kualitas tanah dan mengoptimalkan pertumbuhan tanaman.
 
 Sumber pupuk organik yang bisa digunakan:
-
-Kompos: Hasil dari fermentasi sampah organik seperti daun dan sisa makanan.
-
-Pupuk kandang: Kotoran ternak yang sudah difermentasi.
-
-Biochar: Arang hayati yang meningkatkan kapasitas tanah dalam menyimpan air dan nutrisi.
+* Kompos: Hasil dari fermentasi sampah organik seperti daun dan sisa makanan.
+* Pupuk kandang: Kotoran ternak yang sudah difermentasi.
+* Biochar: Arang hayati yang meningkatkan kapasitas tanah dalam menyimpan air dan nutrisi.
 
 Mikroba tanah seperti Trichoderma dan Rhizobium juga dapat membantu meningkatkan ketersediaan nutrisi bagi tanaman.
 
