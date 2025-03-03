@@ -15,11 +15,11 @@ Seiring dengan perkembangan zaman, sektor pertanian menghadapi berbagai tantanga
 
 Teknologi ini memungkinkan petani untuk melakukan pemantauan tanaman secara real-time, mengoptimalkan irigasi, dan mengelola lahan dengan lebih efektif. Dengan sistem otomatisasi dan data yang akurat, petani dapat mengurangi biaya operasional serta meningkatkan hasil panen secara signifikan. Artikel ini akan membahas lebih lanjut bagaimana penerapan drone dan IoT dapat merevolusi cara bertani dan meningkatkan produktivitas pertanian.
 
-1. Era Baru Pertanian dengan Teknologi Modern
+**1. Era Baru Pertanian dengan Teknologi Modern**
 
 Pertanian modern kini tidak lagi hanya mengandalkan metode konvensional, tetapi juga teknologi canggih untuk meningkatkan efisiensi dan produktivitas. Inovasi seperti drone dan Internet of Things (IoT) menjadi solusi utama dalam menghadapi tantangan pertanian masa kini, termasuk perubahan iklim, keterbatasan tenaga kerja, dan efisiensi penggunaan sumber daya.
 
-2. Peran Drone dalam Pertanian
+**2. Peran Drone dalam Pertanian**
 
 Drone pertanian telah merevolusi cara petani mengelola lahan mereka. Beberapa manfaat utama drone dalam pertanian meliputi:
 
@@ -28,7 +28,7 @@ Drone pertanian telah merevolusi cara petani mengelola lahan mereka. Beberapa ma
 * Pemetaan Lahan: Teknologi pemetaan menggunakan drone membantu petani memahami karakteristik tanah dan menentukan strategi pertanian yang lebih efektif.
 * Deteksi Hama dan Penyakit: Dengan analisis citra udara, drone dapat mengidentifikasi area yang terinfeksi lebih cepat dibandingkan dengan pemeriksaan manual.
 
-3. Sensor IoT untuk Pemantauan Real-Time
+**3. Sensor IoT untuk Pemantauan Real-Time**
 
 Teknologi Internet of Things (IoT) memungkinkan petani untuk mengumpulkan dan menganalisis data dari berbagai aspek pertanian secara otomatis. Beberapa aplikasi IoT dalam pertanian antara lain:
 
@@ -37,7 +37,7 @@ Teknologi Internet of Things (IoT) memungkinkan petani untuk mengumpulkan dan me
 * Sistem Irigasi Otomatis: Dengan data yang dikumpulkan oleh sensor, sistem irigasi dapat dikendalikan secara otomatis untuk menghemat air dan meningkatkan produktivitas.
 * Prediksi Cuaca Berbasis AI: Kombinasi sensor IoT dengan kecerdasan buatan (AI) memungkinkan petani untuk mendapatkan prediksi cuaca yang lebih akurat, membantu dalam perencanaan musim tanam.
 
-4. Keuntungan Penerapan Teknologi Ini bagi Petani
+**4. Keuntungan Penerapan Teknologi Ini bagi Petani**
 
 Dengan menggunakan drone dan IoT, petani dapat merasakan berbagai manfaat, di antaranya:
 
@@ -46,7 +46,7 @@ Dengan menggunakan drone dan IoT, petani dapat merasakan berbagai manfaat, di an
 * Hasil Panen yang Lebih Maksimal: Pemantauan yang lebih akurat terhadap kesehatan tanaman membantu meningkatkan hasil panen dengan mengurangi risiko gagal panen.
 * Pertanian Berkelanjutan: Dengan optimalisasi sumber daya, teknologi ini membantu menciptakan sistem pertanian yang lebih ramah lingkungan.
 
-5. Langkah Implementasi Teknologi dalam Pertanian
+**5. Langkah Implementasi Teknologi dalam Pertanian**
 
 Untuk memulai penerapan teknologi drone dan IoT, petani dapat mengikuti langkah-langkah berikut:
 
