@@ -73,10 +73,10 @@ Banyak komunitas pertanian perkotaan yang bisa membantu Anda belajar dan bertuka
 
 Urban farming bukan hanya tentang bercocok tanam di kota, tetapi juga tentang menciptakan masa depan pangan yang lebih mandiri, sehat, dan berkelanjutan. Dengan metode yang tepat dan semangat gotong royong, setiap orang bisa berkontribusi dalam memperkuat ketahanan pangan di Indonesia, mulai dari halaman rumah sendiri.  
 
-Jadi, tunggu apa lagi? **Mulailah urban farming hari ini dan jadilah bagian dari gerakan pertanian perkotaan yang akan mengubah masa depan!**  
+Jadi, tunggu apa lagi? Mulailah urban farming hari ini dan jadilah bagian dari gerakan pertanian perkotaan yang akan mengubah masa depan!  
 
 
-🔹 **Apakah Anda sudah mencoba urban farming?** Bagikan pengalaman Anda di kolom komentar!  
-🔹 **Ingin belajar lebih dalam tentang teknik hidroponik atau aquaponik?** Ikuti pelatihan kami di [Matari Agro Indonesia](https://matariagro.com)!  
-🔹 **Bagikan artikel ini ke teman dan keluarga agar lebih banyak orang terinspirasi untuk mulai bertani di kota!**  
+🔹 Apakah Anda sudah mencoba urban farming? Bagikan pengalaman Anda di kolom komentar!  
+🔹 Ingin belajar lebih dalam tentang teknik hidroponik atau aquaponik? Ikuti pelatihan kami di [Matari Agro Indonesia](https://matariagro.com)!  
+🔹 Bagikan artikel ini ke teman dan keluarga agar lebih banyak orang terinspirasi untuk mulai bertani di kota!  
 

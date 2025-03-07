@@ -1,6 +1,26 @@
 [
   
   {
+    "title"    : "Urban Farming: Solusi Ketahanan Pangan di Perkotaan yang Harus Anda Coba!",
+    "image"    : "/img/urban_farming_modern.jpg",    
+    "category" : "Inovasi",
+    "tags"     : "pertanian, inovatif, hilirisasi, budidaya, modern, konsultan, ketahanan, pangan, urban, farming",
+    "url"      : "/articles/urban-farming-solusi-ketahanan-pangan-di-perkotaan-yang-harus-anda-coba",
+    "date"     : "2025-03-08 00:00:00 +0700",
+    "desc"     : "Kota yang Padat, Pangan yang Terancam. Bayangkan jika suatu hari Anda pergi ke pasar, namun rak-rak sayuran kosong, dan harga bahan makanan melonjak tinggi. Ini bukan sekadar cerita fiksi, tetapi ancaman nyata yang bisa terjadi jika krisis pangan tidak segera ditangani. Di tengah urbanisasi yang terus berkembang, lahan pertanian semakin menyusut, sementara kebutuhan pangan terus meningkat."
+    } ,
+    
+  {
+    "title"    : "Meningkatkan Produktivitas Pertanian dengan Inovasi Teknologi: Drone dan IoT sebagai Solusi Modern",
+    "image"    : "/img/modern_farming.png",    
+    "category" : "Inovasi",
+    "tags"     : "pertanian, inovatif, hilirisasi, budidaya, modern, konsultan, ketahanan, pangan",
+    "url"      : "/articles/meningkatkan-produktivitas-pertanian-dengan-inovasi-teknologi-drone-dan-io-t-sebagai-solusi-modern",
+    "date"     : "2025-03-03 00:00:00 +0700",
+    "desc"     : "Seiring dengan perkembangan zaman, sektor pertanian menghadapi berbagai tantangan, seperti perubahan iklim, keterbatasan tenaga kerja, dan kebutuhan akan efisiensi sumber daya. Untuk mengatasi tantangan ini, teknologi modern telah hadir sebagai solusi yang dapat meningkatkan produktivitas dan keberlanjutan pertanian. Salah satu inovasi yang kini banyak diterapkan adalah penggunaan drone dan Internet of Things (IoT) dalam berbagai aspek pertanian."
+    } ,
+    
+  {
     "title"    : "Lahan Kecil, Hasil Besar: Cara Jitu Meningkatkan Produktivitas Tanah Anda!",
     "image"    : "/img/vegetable.jpg",    
     "category" : "Inovasi",

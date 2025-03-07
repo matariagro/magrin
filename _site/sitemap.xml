@@ -3,6 +3,30 @@
     xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     
     <url>
+        <loc>http://localhost:4000/articles/urban-farming-solusi-ketahanan-pangan-di-perkotaan-yang-harus-anda-coba</loc>
+        <news:news>
+            <news:publication>
+                <news:name>Matariagro.com</news:name>
+                <news:language>id</news:language>
+            </news:publication>
+                <news:publication_date>2025-03-08</news:publication_date>
+                <news:title>Urban Farming: Solusi Ketahanan Pangan di Perkotaan yang Harus Anda Coba!</news:title>
+        </news:news>    
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/meningkatkan-produktivitas-pertanian-dengan-inovasi-teknologi-drone-dan-io-t-sebagai-solusi-modern</loc>
+        <news:news>
+            <news:publication>
+                <news:name>Matariagro.com</news:name>
+                <news:language>id</news:language>
+            </news:publication>
+                <news:publication_date>2025-03-03</news:publication_date>
+                <news:title>Meningkatkan Produktivitas Pertanian dengan Inovasi Teknologi: Drone dan IoT sebagai Solusi Modern</news:title>
+        </news:news>    
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/articles/lahan-kecil-hasil-besar-cara-jitu-meningkatkan-produktivitas-tanah-anda</loc>
         <news:news>
             <news:publication>

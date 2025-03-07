@@ -2,6 +2,16 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <sitemap>
+    <loc>http://localhost:4000/articles/urban-farming-solusi-ketahanan-pangan-di-perkotaan-yang-harus-anda-coba</loc>
+    <lastmod>2025-03-08</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>http://localhost:4000/articles/meningkatkan-produktivitas-pertanian-dengan-inovasi-teknologi-drone-dan-io-t-sebagai-solusi-modern</loc>
+    <lastmod>2025-03-03</lastmod>
+  </sitemap>
+
+  <sitemap>
     <loc>http://localhost:4000/articles/lahan-kecil-hasil-besar-cara-jitu-meningkatkan-produktivitas-tanah-anda</loc>
     <lastmod>2025-02-25</lastmod>
   </sitemap>
