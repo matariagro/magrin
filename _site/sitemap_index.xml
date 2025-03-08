@@ -7,6 +7,11 @@
   </sitemap>
 
   <sitemap>
+    <loc>http://localhost:4000/articles/strategi-diversifikasi-pangan-kunci-ketahanan-pangan-indonesia-di-tengah-krisis-global</loc>
+    <lastmod>2025-03-08</lastmod>
+  </sitemap>
+
+  <sitemap>
     <loc>http://localhost:4000/articles/meningkatkan-produktivitas-pertanian-dengan-inovasi-teknologi-drone-dan-io-t-sebagai-solusi-modern</loc>
     <lastmod>2025-03-03</lastmod>
   </sitemap>
@@ -1384,6 +1389,13 @@
   
     <sitemap>
       <loc>http://localhost:4000/articles/page17/</loc>
+      <lastmod></lastmod>
+    </sitemap>
+  
+
+  
+    <sitemap>
+      <loc>http://localhost:4000/articles/page18/</loc>
       <lastmod></lastmod>
     </sitemap>
   
