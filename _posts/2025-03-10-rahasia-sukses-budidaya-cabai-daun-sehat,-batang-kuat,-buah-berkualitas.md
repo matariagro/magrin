@@ -7,7 +7,7 @@ category: Inovasi
 tags: pertanian inovatif hilirisasi budidaya cabe konsultan ketahanan pangan urban farming
 subtitle: Inovasi Pertanian
 nav: Inovasi
-image: tip_cabe.jpg
+image: tips_cabe.jpg
 img-alt: Budi Daya Cabe
 ---
 
