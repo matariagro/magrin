@@ -3,6 +3,18 @@
     xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     
     <url>
+        <loc>http://localhost:4000/articles/peta-jalan-ketahanan-pangan-indonesia-strategi-cerdas-menuju-kemandirian-pangan</loc>
+        <news:news>
+            <news:publication>
+                <news:name>Matariagro.com</news:name>
+                <news:language>id</news:language>
+            </news:publication>
+                <news:publication_date>2025-03-13</news:publication_date>
+                <news:title>Peta Jalan Ketahanan Pangan Indonesia: Strategi Cerdas Menuju Kemandirian Pangan</news:title>
+        </news:news>    
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/articles/ketahanan-pangan-indonesia-terancam-ini-fakta-yang-harus-anda-ketahui</loc>
         <news:news>
             <news:publication>
