@@ -1,0 +1,356 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Matari Agro Indonesia — Pertanian Terintegrasi & Korporasi Petani</title>
+  <meta name="description" content="Konsultan pertanian terintegrasi: desain ekosistem hulu–hilir, korporasi petani, pemberdayaan, dan sistem pertanian berkelanjutan." />
+  <link rel="icon" href="/favicon.ico" />
+  <meta property="og:title" content="Matari Agro Indonesia — Pertanian Terintegrasi" />
+  <meta property="og:description" content="Bangun ekosistem pertanian yang menguntungkan & berkelanjutan. Kami bantu korporasi, koperasi, dan pemerintah." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-cover.jpg" />
+  <meta name="theme-color" content="#0E3B2E" />  <!-- JSON-LD: Organization + Website + Service + Project -->  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PT Matari Agro Indonesia",
+    "url": "https://matariagro.com",
+    "logo": "https://matariagro.com/logo.svg",
+    "sameAs": [
+      "https://www.linkedin.com/company/",
+      "https://www.instagram.com/"
+    ]
+  }
+  </script>  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Matari Agro Indonesia",
+    "url": "https://matariagro.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://matariagro.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>  <style>
+    :root{
+      --bg: #0b0f10;           /* carbon black */
+      --panel: #0f1517cc;      /* glass panel */
+      --text: #e9f1ef;         /* off-white */
+      --muted: #9db2ac;        /* muted text */
+      --accent: #7df3b6;       /* mint green */
+      --accent-2: #e6ff7d;     /* padi yellow */
+      --brand: #1e7f62;        /* deep green */
+      --stroke: #223133;       /* subtle border */
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(0,0,0,.45);
+      --maxw: 1200px;
+    }
+    @media (prefers-color-scheme: light){
+      :root{ --bg:#f7faf9; --panel:#ffffffcc; --text:#07110e; --muted:#5f706b; --stroke:#e7eeec; --shadow:0 10px 24px rgba(0,0,0,.08);}  
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Noto Sans", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji"; color:var(--text); background:
+      radial-gradient(1200px 1200px at 10% -20%, #173c33 .25, transparent 60%),
+      radial-gradient(900px 900px at 100% 0%, #12302a .25, transparent 60%),
+      linear-gradient(180deg, #0b0f10, #0b0f10);
+      background-attachment: fixed;
+      scroll-behavior:smooth;
+    }
+    a{color:inherit;text-decoration:none}
+    .container{max-width:var(--maxw); margin:0 auto; padding:0 20px}
+    .glass{background:var(--panel); backdrop-filter: blur(12px); border:1px solid var(--stroke); border-radius:var(--radius); box-shadow:var(--shadow)}
+    .btn{display:inline-flex; align-items:center; gap:10px; padding:12px 18px; border-radius:14px; border:1px solid var(--stroke); transition:all .2s ease; font-weight:600}
+    .btn.primary{ background: linear-gradient(135deg, var(--brand), #2ab686); color:#fff; border-color:transparent }
+    .btn.secondary{ background:transparent; color:var(--text) }
+    .btn:hover{ transform: translateY(-1px); box-shadow: 0 10px 20px rgba(0,0,0,.25)}
+    header{ position:sticky; top:0; z-index:60; backdrop-filter:saturate(140%) blur(8px); border-bottom:1px solid var(--stroke); background:linear-gradient(180deg, rgba(15,21,23,.85), rgba(15,21,23,.55)); }
+    nav{ display:flex; align-items:center; justify-content:space-between; padding:14px 0 }
+    .brand{ display:flex; gap:12px; align-items:center }
+    .brand .logo{ width:34px; height:34px; border-radius:10px; background:conic-gradient(from 120deg at 50% 50%, var(--accent), var(--accent-2), var(--brand), var(--accent)); border:1px solid var(--stroke)}
+    .brand .name{ font-weight:800; letter-spacing:.2px }
+    .menu{ display:flex; gap:18px; align-items:center }
+    .menu a{ color:var(--muted) }
+    .menu a.active{ color:var(--text) }
+    .menu-toggle{ display:none }
+    @media (max-width: 880px){ .menu{ display:none } .menu-toggle{ display:block } }
+    
+    .hero{ position:relative; padding:84px 0 54px }
+    .super{ display:inline-block; font-size:13px; letter-spacing:.35em; text-transform:uppercase; color:var(--muted); margin-bottom:14px }
+    h1{ font-size: clamp(28px, 5vw, 56px); line-height:1.05; margin:0 0 16px; letter-spacing:.2px }
+    .lead{ font-size: clamp(16px, 2.2vw, 20px); color:var(--muted); margin: 0 0 26px; max-width: 800px }
+    .cta{ display:flex; gap:12px; flex-wrap:wrap }
+    .hero-badges{ margin-top:22px; display:flex; gap:18px; align-items:center; flex-wrap:wrap }
+    .badge{ font-size:13px; padding:8px 12px; border:1px dashed var(--stroke); border-radius:12px; color:var(--muted) }
+    
+    section{ padding:56px 0 }
+    h2{ font-size: clamp(22px, 3.2vw, 34px); margin:0 0 10px }
+    .sub{ color:var(--muted); margin:0 0 24px }
+
+    .grid{ display:grid; gap:18px }
+    .grid.cols-3{ grid-template-columns: repeat(3, 1fr) }
+    .grid.cols-4{ grid-template-columns: repeat(4, 1fr) }
+    .grid.cols-2{ grid-template-columns: repeat(2, 1fr) }
+    @media (max-width: 960px){ .grid.cols-4{ grid-template-columns: repeat(2, 1fr) } }
+    @media (max-width: 720px){ .grid.cols-3, .grid.cols-2{ grid-template-columns: 1fr } }
+
+    .card{ padding:18px; border:1px solid var(--stroke); border-radius:var(--radius); background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00)); box-shadow: var(--shadow) }
+    .card h3{ margin:8px 0 6px; font-size:18px }
+    .card p{ margin:0; color:var(--muted) }
+
+    .metrics{ display:flex; flex-wrap:wrap; gap:14px }
+    .metric{ flex:1 1 210px; border:1px solid var(--stroke); border-radius:16px; padding:16px; text-align:center; background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00)) }
+    .metric .val{ font-size:28px; font-weight:800 }
+    .metric .lab{ color:var(--muted) }
+
+    .services .card{ display:flex; flex-direction:column; gap:8px }
+    .services .outcomes{ margin-top:auto; display:flex; gap:8px; flex-wrap:wrap }
+    .chip{ font-size:12px; padding:6px 8px; border:1px solid var(--stroke); border-radius:999px; color:var(--muted) }
+
+    .filters{ display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px }
+    .filters select, .filters input{ background:transparent; color:var(--text); border:1px solid var(--stroke); padding:10px 12px; border-radius:12px }
+    .filters input::placeholder{ color:var(--muted) }
+
+    .case-card{ position:relative; overflow:hidden }
+    .case-card .thumb{ height:150px; border-radius:14px; background:linear-gradient(135deg, #1e7f62, #2ab686); display:flex; align-items:center; justify-content:center; font-weight:700 }
+    .case-card .meta{ display:flex; gap:10px; color:var(--muted); font-size:13px; margin-top:10px }
+
+    .footer{ border-top:1px solid var(--stroke); padding:34px 0; color:var(--muted) }
+    .footer a{ color:var(--text) }
+
+    .floating-cta{ position: fixed; right: 20px; bottom: 20px; z-index: 50 }
+  </style></head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <div class="name">Matari Agro</div>
+        </div>
+        <div class="menu" id="menu">
+          <a href="#home" class="active">Home</a>
+          <a href="#layanan">Layanan</a>
+          <a href="#studi-kasus">Studi Kasus</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+        <button class="btn primary" onclick="scrollToId('kontak')">Ajukan Penawaran (RFP)</button>
+        <button class="menu-toggle btn secondary" aria-label="Menu" onclick="toggleMenu()">☰</button>
+      </nav>
+    </div>
+  </header>  <main id="home" class="hero container">
+    <span class="super">PERTANIAN TERINTEGRASI • KORPORASI PETANI</span>
+    <h1>Bangun Ekosistem Pertanian <span style="background:linear-gradient(90deg,var(--accent),var(--accent-2)); -webkit-background-clip:text; background-clip:text; color:transparent">Menguntungkan & Berkelanjutan</span></h1>
+    <p class="lead">Kami membantu korporasi, koperasi, dan pemerintah merancang serta mengeksekusi model hulu–hilir: dari peningkatan produktivitas, pascapanen & pengolahan, hingga akses pasar dan ketelusuran digital.</p>
+    <div class="cta">
+      <a class="btn primary" href="#kontak">Minta Konsultasi Gratis</a>
+      <a class="btn secondary" href="#studi-kasus">Lihat Studi Kasus</a>
+      <a class="btn secondary" href="/docs/Company-Profile-MatariAgro.pdf" target="_blank" rel="noopener">Download Company Profile</a>
+    </div>
+    <div class="hero-badges">
+      <span class="badge">End‑to‑End: produksi → pasar</span>
+      <span class="badge">Dampak terukur</span>
+      <span class="badge">Smart Farming & Traceability</span>
+    </div>
+  </main>  <section class="container" id="impact">
+    <h2>Dampak yang Terukur</h2>
+    <p class="sub">Angka ringkas dari proyek-proyek pendampingan (contoh; sesuaikan dengan data final).</p>
+    <div class="metrics">
+      <div class="metric glass"><div class="val">+60%</div><div class="lab">Kenaikan omzet UKM olahan</div></div>
+      <div class="metric glass"><div class="val">+40%</div><div class="lab">Produktivitas pisang Cavendish</div></div>
+      <div class="metric glass"><div class="val">8–10 t/ha</div><div class="lab">Hasil padi; IP 2–3/tahun</div></div>
+      <div class="metric glass"><div class="val">8+</div><div class="lab">Wilayah replikasi benih Inpago</div></div>
+    </div>
+  </section>  <section class="container services" id="layanan">
+    <h2>Layanan Utama</h2>
+    <p class="sub">Solusi terintegrasi untuk skala korporasi, koperasi, dan pemerintah daerah.</p>
+    <div class="grid cols-4">
+      <article class="card glass">
+        <h3>Pertanian Terintegrasi & Ekosistem Hulu–Hilir</h3>
+        <p>Blueprint ekosistem, SOP budidaya & pascapanen, desain unit pengolahan, strategi pasar & distribusi.</p>
+        <div class="outcomes">
+          <span class="chip">Blueprint 12 bulan</span>
+          <span class="chip">SOP & KPI</span>
+          <span class="chip">Skema kemitraan</span>
+        </div>
+      </article>
+      <article class="card glass">
+        <h3>Korporasi Petani & Kelembagaan</h3>
+        <p>Pembentukan/penataan koperasi/Gapoktan, kontrak offtaker, pembiayaan, akuntansi, tata kelola.</p>
+        <div class="outcomes">
+          <span class="chip">Model bisnis</span>
+          <span class="chip">Perjanjian kemitraan</span>
+          <span class="chip">Dashboard kinerja</span>
+        </div>
+      </article>
+      <article class="card glass">
+        <h3>Teknologi & Smart Farming</h3>
+        <p>Implementasi GAP, IPM, varietas unggul, IoT monitoring, dan sistem traceability untuk efisiensi & mutu.</p>
+        <div class="outcomes">
+          <span class="chip">GAP & IPM</span>
+          <span class="chip">IoT & ketelusuran</span>
+          <span class="chip">Standar mutu</span>
+        </div>
+      </article>
+      <article class="card glass">
+        <h3>Pelatihan & Pendampingan</h3>
+        <p>Program in‑house & lapangan: budidaya, pascapanen, manajemen koperasi, kewirausahaan desa.</p>
+        <div class="outcomes">
+          <span class="chip">Kurikulum modul</span>
+          <span class="chip">Coaching onsite</span>
+          <span class="chip">Sertifikat</span>
+        </div>
+      </article>
+    </div>
+  </section>  <section class="container" id="studi-kasus">
+    <h2>Studi Kasus & Dampak</h2>
+    <p class="sub">Telusuri proyek berdasarkan komoditas, wilayah, atau kata kunci.</p>
+    <div class="filters">
+      <select id="filter-komoditas" aria-label="Filter komoditas" onchange="filterCases()">
+        <option value="">Semua Komoditas</option>
+        <option>Padi</option>
+        <option>Pisang</option>
+        <option>Hortikultura</option>
+        <option>Benih</option>
+        <option>UKM Olahan</option>
+      </select>
+      <select id="filter-wilayah" aria-label="Filter wilayah" onchange="filterCases()">
+        <option value="">Semua Wilayah</option>
+        <option>Kaltim</option>
+        <option>Jateng</option>
+        <option>Jabar</option>
+        <option>DIY</option>
+        <option>Jatim</option>
+      </select>
+      <input id="filter-cari" type="search" placeholder="Cari kata kunci…" oninput="filterCases()" />
+    </div><div class="grid cols-3" id="cases">
+  <!-- Card 1 -->
+  <article class="card glass case-card" data-komoditas="Padi" data-wilayah="Kaltim" data-keywords="industri beras terintegrasi pengolahan modern offtaker">
+    <div class="thumb">Industri Beras Terintegrasi</div>
+    <h3>Kutai Timur • 2024</h3>
+    <div class="meta"><span>Padi</span>•<span>Kaltim</span></div>
+    <p>Roadmap + pilot unit pengolahan modern; ekosistem petani–koperasi–offtaker; standarisasi mutu & traceability.</p>
+    <div style="margin-top:12px"><a class="btn secondary" href="#kontak">Minta proyek serupa</a></div>
+  </article>
+  <!-- Card 2 -->
+  <article class="card glass case-card" data-komoditas="UKM Olahan" data-wilayah="Kaltim" data-keywords="ukm modernisasi produksi peningkatan omzet branding pasar online">
+    <div class="thumb">UKM Olahan</div>
+    <h3>Kutai Timur • 2025</h3>
+    <div class="meta"><span>UKM Olahan</span>•<span>Kaltim</span></div>
+    <p>Modernisasi produksi UKM (Kalbana & Frutiboks); SOP; perluasan pasar; <strong>omzet +≈60%</strong>.</p>
+    <div style="margin-top:12px"><a class="btn secondary" href="#kontak">Minta proyek serupa</a></div>
+  </article>
+  <!-- Card 3 -->
+  <article class="card glass case-card" data-komoditas="Pisang" data-wilayah="Jateng" data-keywords="cavendish produktivitas ritel nasional">
+    <div class="thumb">Pisang Cavendish</div>
+    <h3>Sragen • 2023</h3>
+    <div class="meta"><span>Pisang</span>•<span>Jateng</span></div>
+    <p>Peningkatan produktivitas <strong>+40%</strong>; akses ritel nasional; standar budidaya & pascapanen.</p>
+    <div style="margin-top:12px"><a class="btn secondary" href="#kontak">Minta proyek serupa</a></div>
+  </article>
+  <!-- Card 4 -->
+  <article class="card glass case-card" data-komoditas="Benih" data-wilayah="Jateng" data-keywords="inpago benih bersertifikat bpsb">
+    <div class="thumb">Benih Inpago</div>
+    <h3>Purworejo • 2023</h3>
+    <div class="meta"><span>Benih</span>•<span>Jateng</span></div>
+    <p>Produksi benih bersertifikat (Inpago); SOP BPSB; replikasi ke 8+ wilayah.</p>
+    <div style="margin-top:12px"><a class="btn secondary" href="#kontak">Minta proyek serupa</a></div>
+  </article>
+  <!-- Card 5 -->
+  <article class="card glass case-card" data-komoditas="Padi" data-wilayah="Jateng" data-keywords="organik korporasi petani standar organik">
+    <div class="thumb">Padi Organik</div>
+    <h3>Batang • 2020</h3>
+    <div class="meta"><span>Padi</span>•<span>Jateng</span></div>
+    <p>Pembentukan korporasi petani organik; sertifikasi; akses pasar premium.</p>
+    <div style="margin-top:12px"><a class="btn secondary" href="#kontak">Minta proyek serupa</a></div>
+  </article>
+  <!-- Card 6 -->
+  <article class="card glass case-card" data-komoditas="Hortikultura" data-wilayah="DIY" data-keywords="hortikultura smart farming iot traceability">
+    <div class="thumb">Hortikultura</div>
+    <h3>DIY • 2022</h3>
+    <div class="meta"><span>Hortikultura</span>•<span>DIY</span></div>
+    <p>Penerapan smart farming (sensor IoT) & traceability; efisiensi input & peningkatan mutu.</p>
+    <div style="margin-top:12px"><a class="btn secondary" href="#kontak">Minta proyek serupa</a></div>
+  </article>
+</div>
+
+  </section>  <section class="container" id="faq">
+    <h2>FAQ Singkat</h2>
+    <div class="grid cols-2">
+      <article class="card glass">
+        <h3>Bagaimana model kerja?</h3>
+        <p>Mulai dari assessment 10 hari kerja → rencana aksi 12 bulan. Implementasi bertahap dengan KPI & coaching di lapangan.</p>
+      </article>
+      <article class="card glass">
+        <h3>Siapa sasaran utama?</h3>
+        <p>Korporasi agribisnis, koperasi/Gapoktan, pemerintah daerah, dan investor yang memerlukan desain ekosistem pertanian.</p>
+      </article>
+    </div>
+  </section>  <section class="container" id="kontak">
+    <h2>Mulai dari Konsultasi</h2>
+    <p class="sub">Sampaikan kebutuhan Anda. Kami akan kembali dengan usulan & kisaran waktu/biaya.</p>
+    <div class="grid cols-2">
+      <form class="card glass" onsubmit="sendRFP(event)">
+        <label>Nama<br><input name="nama" required placeholder="Nama lengkap"/></label><br>
+        <label>Email<br><input name="email" type="email" required placeholder="email@contoh.com"/></label><br>
+        <label>Instansi/Perusahaan<br><input name="instansi" placeholder="Nama instansi"/></label><br>
+        <label>Kebutuhan Singkat<br><textarea name="pesan" rows="4" placeholder="Ceritakan tantangan & target Anda…"></textarea></label><br>
+        <button class="btn primary" type="submit">Kirim RFP via Email</button>
+        <p class="sub">Atau hubungi langsung: <a href="https://wa.me/6281234567890" target="_blank" rel="noopener">WhatsApp</a></p>
+      </form>
+      <div class="card glass">
+        <h3>Alamat & Legal</h3>
+        <p>PT Matari Agro Indonesia<br>— alamat lengkap perusahaan —<br>NPWP, NIB, dan legalitas lainnya.</p>
+        <p><strong>Email:</strong> hello@matariagro.com</p>
+        <p><strong>Telepon:</strong> +62‑812‑3456‑7890</p>
+      </div>
+    </div>
+  </section>  <footer class="footer">
+    <div class="container" style="display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap">
+      <div>© <span id="year"></span> PT Matari Agro Indonesia</div>
+      <div style="display:flex; gap:14px">
+        <a href="#home">Home</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#studi-kasus">Studi Kasus</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </div>
+  </footer><a class="floating-cta btn primary" href="#kontak">Ajukan Penawaran</a>
+
+  <script>
+    function toggleMenu(){
+      const m = document.getElementById('menu');
+      m.style.display = m.style.display === 'flex' ? 'none' : 'flex';
+      m.style.flexDirection = 'column'; m.style.gap = '12px';
+    }
+    function scrollToId(id){ document.getElementById(id)?.scrollIntoView({behavior:'smooth'}) }
+    function filterCases(){
+      const kom = document.getElementById('filter-komoditas').value.toLowerCase();
+      const wil = document.getElementById('filter-wilayah').value.toLowerCase();
+      const q = document.getElementById('filter-cari').value.toLowerCase().trim();
+      const items = document.querySelectorAll('#cases .case-card');
+      items.forEach(el=>{
+        const ek = (el.dataset.komoditas||'').toLowerCase();
+        const ew = (el.dataset.wilayah||'').toLowerCase();
+        const kw = (el.dataset.keywords||'').toLowerCase();
+        const text = el.innerText.toLowerCase();
+        const okKom = !kom || ek.includes(kom);
+        const okWil = !wil || ew.includes(wil);
+        const okQ = !q || kw.includes(q) || text.includes(q);
+        el.style.display = (okKom && okWil && okQ) ? 'block' : 'none';
+      })
+    }
+    function sendRFP(e){
+      e.preventDefault();
+      const f = new FormData(e.target);
+      const subject = encodeURIComponent('RFP: Konsultasi Pertanian Terintegrasi');
+      const body = encodeURIComponent(`Nama: ${f.get('nama')}
+Email: ${f.get('email')}
+Instansi: ${f.get('instansi')}
+Kebutuhan:\n${f.get('pesan')}`);
+      window.location.href = `mailto:hello@matariagro.com?subject=${subject}&body=${body}`;
+    }
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script></body>
+</html>
